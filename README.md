@@ -10,3 +10,6 @@ Balanced binary search tree : If number of elements at leaf is n , and height is
 If the height is h , then number of elements the tree will have is 2^(h+1) - 1 .
 If we combine these two, suppose u have n1 elements. You want to put all of them as leaf nodes and construct a tree. Then the tree will have total nodes = 2^(logn+1) - 1 .
 Log is on base 2
+
+
+* PrintNumsUsingRecursion.java : basic program to show how you can print numbers using recursion instead of 'for' loop. Also has method for factorial.
