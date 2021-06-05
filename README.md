@@ -14,3 +14,4 @@ Log is on base 2
 
 * PrintNumsUsingRecursion.java : basic program to show how you can print numbers using recursion instead of 'for' loop. Also has method for factorial.
 * SortAndInsertionUsingRecursion.java : contains recursive method to 'sort a list of unsorted integers' using recursion. Uses another recursion method, to 'insert an integer in a sorted list'.
+* PrintSubsetsUsingRecursion.java : given a string "abc". get all subsets = "", a, b, c, ab, ac, bc, abc. In case string is aac, subsets will have duplicates with our logic. subsets= "", a, a, c, aa, ac, ac, aac . To remove these, you can simply store the outputs in a Set.
