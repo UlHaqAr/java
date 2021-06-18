@@ -18,11 +18,11 @@ public class PrintSubsetsUsingRecursion {
     * example, at level 2, we make choices for b wrt a and _ .
     * and, again at level 3, we make choices for c wrt a. so we get both ac and ab. 
     * 
-    * 									abc							 ip=abc
-    * 							    /         \
-    * 							  _              a                   ip=bc
-    *                          /    \          /    \
-    * 					   _         b        a       ab             ip=c
+    *					abc							 ip=abc
+    *				    /         \
+    *				  _              a                   ip=bc
+    *                         /    \          /    \
+    *			   _         b        a       ab             ip=c
     *                    /   \     /   \     /  \     /   \
     *                  _     c    b    bc    a   ac   ab    abc      ip=_
     * 
